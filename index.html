@@ -2,16 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Support | gabscalle</title>
+    <title>Recrutement | Habbox</title>
     <link rel="stylesheet" href="style.css">
     <head>
 <body>
 <!-- PARTIE HEADER BULLE -->
 <div id="header">
-    <p>Merci de remplir tous les champs du formulaire pour décrire au mieux l´objet de ta demande. Seules les demandes
-        formulées correctement seront traitées. En raison du nombre important, cela peut prendre plusieurs jours avant
-        de recevoir une réponse. Il n´est enfin pas utile d´envoyer plusieurs message, cela ne fait que ralentir le
-        processus. </p>
+    <p>Attention: seules les candidatures en bonne et due forme seront retenues.Toute candidature envoyée en dehors de cette période et/ou à la mauvaise adresse ne sera pas prise en compte. </p>
 </div>
 <!-- FORMULAIRE DE CONTACT -->
 <div id="formblock">
@@ -19,14 +16,14 @@
             
         <p>
             
-            Seules les demandes formulées correctement seront traitées. 
+            Le détail de chaque poste ainsi que ses conditions sont disponibles <a target="_blank" href="https://habbox.fr/help/10-rles-et-icnes-habbox">ici</a>. 
             
         </p>
     <form action="https://getform.io/f/2d7942ea-5bb0-4b35-a0f3-9e1caee7ab41" method="POST">
 
         <div id="right">
 
-            <label for="reason">Merci de sélectionner une raison <span>*</span> </label>
+            <label for="reason">Merci de sélectionner un poste <span>*</span> </label>
 
 
             <select id="reason" name="reason" required>
@@ -35,36 +32,32 @@
 
                 </option>
 
-                <option value="PAYMENT">
-                    Recharger des Coins
-                </option>
-
-                <option value="TECHNICAL">
-                    Problèmes techniques
-                </option>
-
-                <option value="MOD">
-                    Problèmes modérations
+                <option value="RESP">
+                    Responsable d'un équipe ou pôle
                 </option>
 
                 <option value="ANIM">
-                    Problèmes animations
+                    Animateur
                 </option>
 
-                <option value="IMPROVEMENTS">
-                    Suggestions d´amélioration
+                <option value="MOD">
+                    Modérateur
+                </option>
+
+                <option value="EVENT">
+                    Organisateur d'évenements
+                </option>
+
+                <option value="ARTISTE">
+                    Artiste 3D
                 </option>
                 
-                <option value="PARTNERSHIP">
-                    Demande de partenariat
+                <option value="BUILD">
+                    Architecte
                 </option>
 
-                <option value="NICKCHANGE">
-                    Changer de pseudo
-                </option>
-
-                <option value="CALLS">
-                    Recrutements
+                <option value="WIRED">
+                    Wired-Builder
                 </option>
 
                 <option value="OTHER">
@@ -75,7 +68,7 @@
 
             <br/><br/>
 
-            <label for="requestLabel">Ta demande: <span>*</span></label>
+            <label for="requestLabel">Contenu de ta candiatrue: <span>*</span></label>
 
 
             <textarea id="request" name="request" value="" required></textarea>
@@ -84,19 +77,10 @@
         </div>
 
         <ul>
-            <li><label>Cafftag</label><input type="text" disabled value="support_fr" class="disabled"/></li>
+            <li><label>Localisation</label><input type="text" disabled value="disabled" class="disabled"/></li>
 
             
             <li><label>Pseudo <span></span></label><input type="text" name="nick" value=""/></li>
-
-
-            <li><label>Prénom <span>*</span></label><input type="text" name="firstname" value="" required/></li>
-
-
-            <li><label>Nom <span>*</span></label><input type="text" name="lastname" value="" required/></li>
-
-
-            <li><label>Email <span>*</span></label><input type="text" name="email" value="" required/></li>
 
 
             <li><label>Discord <span></span></label><input type="text" name="discord" value=""/></li>
