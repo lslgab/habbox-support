@@ -223,17 +223,6 @@ button {
     font-weight: bold;
 }
 
-
-button {
-    margin: 7px;
-    padding: 16px 58.5px;
-    background: url(/assets/img/buttons.png);
-    border: 0px;
-    background-position: 183px 100px;
-    color: white;
-    font-weight: bold;
-}
-
 button:hover {
     background-position: 183px 47px;
 }
